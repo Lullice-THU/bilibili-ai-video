@@ -1,1 +1,1 @@
-__init__.py
+# Bilibili AI Video Source Package
