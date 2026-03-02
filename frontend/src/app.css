@@ -1,0 +1,9 @@
+/* Global Styles */
+page {
+  background: #1a1a2e;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}

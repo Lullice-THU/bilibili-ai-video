@@ -1,0 +1,32 @@
+{
+  "name": "bilibili-ai-video",
+  "version": "1.0.0",
+  "private": true,
+  "template": "@tarojs/template-default",
+  "description": "Bilibili AI Video Assistant - MVP",
+  "scripts": {
+    "dev": "TARO_ENV=h5 npm run build:watch -- --watch",
+    "build": "taro build",
+    "build:watch": "taro build --watch",
+    "dev:weapp": "TARO_ENV=weapp npm run build:watch -- --watch",
+    "build:weapp": "TARO_ENV=weapp taro build"
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.6.0",
+    "@tarojs/plugin-framework-react": "^3.6.0",
+    "@tarojs/plugin-platform-weapp": "^3.6.0",
+    "@tarojs/react": "^3.6.0",
+    "@tarojs/runtime": "^3.6.0",
+    "@tarojs/taro": "^3.6.0",
+    "@tarojs/webpack5-runner": "^3.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@tarojs/cli": "^3.6.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.89.0"
+  }
+}
