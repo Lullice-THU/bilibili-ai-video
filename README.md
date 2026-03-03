@@ -1,4 +1,7 @@
 # bilibili-ai-video
+
+[![Stars](https://img.shields.io/github/stars/Lullice-THU/bilibili-ai-video?style=social)](https://github.com/Lullice-THU/bilibili-ai-video/stargazers)
+# bilibili-ai-video
 Bilibili AI Video Prompt Generator - 基于B站热点自动生成AI视频Prompt
 
 ## 项目简介
