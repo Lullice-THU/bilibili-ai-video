@@ -28,9 +28,8 @@ TEMPLATES: Dict[TemplateType, str] = {
 3. 视频结构：
    - 开头（5-10秒）：hook观众，说明为什么这个话题值得关注
    - 主体（1-3分钟）：深度分析，层层递进
-   - 结尾（10-20秒）：总结观点，引发思考
-4. 结尾互动话术：引导评论、点赞、投币
-5. 预估时长：60-180秒
+   - 结尾（10-20秒）：总结核心观点，点题收束
+4. 预估时长：60-180秒
 
 请以JSON格式输出，包含以下字段：
 {{
@@ -39,7 +38,6 @@ TEMPLATES: Dict[TemplateType, str] = {
     "opening": "开头脚本",
     "body": "主体脚本",
     "ending": "结尾脚本",
-    "ending_interaction": "互动话术",
     "estimated_duration": 120
 }}
 
@@ -66,9 +64,8 @@ TEMPLATES: Dict[TemplateType, str] = {
 3. 视频结构：
    - 开头（5-10秒）：引入话题，说明能学到什么
    - 主体（2-4分钟）：知识讲解，循序渐进
-   - 结尾（10-20秒）：总结要点
-4. 结尾互动话术：引导收藏、学习
-5. 预估时长：120-240秒
+   - 结尾（10-20秒）：总结要点，点题收束
+4. 预估时长：120-240秒
 
 请以JSON格式输出，包含以下字段：
 {{
@@ -77,7 +74,6 @@ TEMPLATES: Dict[TemplateType, str] = {
     "opening": "开头脚本",
     "body": "主体脚本",
     "ending": "结尾脚本",
-    "ending_interaction": "互动话术",
     "estimated_duration": 180
 }}
 
@@ -104,9 +100,8 @@ TEMPLATES: Dict[TemplateType, str] = {
 3. 视频结构：
    - 开头（5秒）：快速切入主题
    - 主体（1-2分钟）：要点罗列，简洁有力
-   - 结尾（10秒）：话题延伸
-4. 结尾互动话术：引导讨论
-5. 预估时长：60-120秒
+   - 结尾（10秒）：话题延伸，总结收束
+4. 预估时长：60-120秒
 
 请以JSON格式输出，包含以下字段：
 {{
@@ -115,7 +110,6 @@ TEMPLATES: Dict[TemplateType, str] = {
     "opening": "开头脚本",
     "body": "主体脚本",
     "ending": "结尾脚本",
-    "ending_interaction": "互动话术",
     "estimated_duration": 90
 }}
 

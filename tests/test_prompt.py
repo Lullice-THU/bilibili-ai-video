@@ -1,5 +1,5 @@
 """
-Unit tests for Prompt Generation Module (M2)
+Unit tests for Prompt Generation Module (Henry-based)
 """
 import pytest
 import json
@@ -10,34 +10,19 @@ from src.prompt import (
     generate_prompt,
     GeneratedPrompt,
     TemplateType,
-    get_llm_client,
-    LLMConfig,
+    HenryClient,
+    generate_prompt_with_henry,
 )
 
 
-class TestLLMConfig:
-    """Test LLM configuration"""
+class TestHenryConfig:
+    """Test Henry configuration"""
     
     def test_default_config(self):
         """Test default configuration values"""
-        config = LLMConfig()
-        assert config.provider == "deepseek"
-        assert config.temperature == 0.7
-        assert config.max_tokens == 2000
-    
-    def test_env_override(self, monkeypatch):
-        """Test environment variable override"""
-        monkeypatch.setenv("LLM_PROVIDER", "anthropic")
-        monkeypatch.setenv("DEEPSEEK_API_KEY", "test-key")
-        
-        # Need to reload config module to pick up env changes
-        import importlib
-        import src.prompt.config
-        importlib.reload(src.prompt.config)
-        
-        from src.prompt.config import LLMConfig
-        config = LLMConfig()
-        assert config.provider == "anthropic"
+        client = HenryClient()
+        assert client.api_url is not None
+        assert client.timeout == 120
 
 
 class TestTemplateTypes:
@@ -56,13 +41,13 @@ class TestPromptGenerator:
     def test_generator_init(self):
         """Test generator initialization"""
         generator = PromptGenerator()
-        assert generator.llm_client is None
+        assert generator.henry_client is None
     
     def test_generator_with_client(self):
         """Test generator with custom client"""
         mock_client = Mock()
-        generator = PromptGenerator(llm_client=mock_client)
-        assert generator.llm_client is mock_client
+        generator = PromptGenerator(henry_client=mock_client)
+        assert generator.henry_client is mock_client
     
     def test_template_type_selection(self):
         """Test template type selection based on weights"""
@@ -80,24 +65,6 @@ class TestPromptGenerator:
         assert counts[TemplateType.HOT_INTERPRET] / iterations > 0.4
         assert counts[TemplateType.KNOWLEDGE] / iterations > 0.15
         assert counts[TemplateType.ROUNDUP] / iterations > 0.05
-    
-    def test_parse_llm_response(self):
-        """Test JSON parsing from LLM response"""
-        generator = PromptGenerator()
-        
-        # Test clean JSON
-        data = generator._parse_llm_response('{"key": "value"}')
-        assert data == {"key": "value"}
-        
-        # Test JSON in markdown code block
-        response = '''Here is the JSON:
-```json
-{"title": "test"}
-```
-
-Hope you like it!'''
-        data = generator._parse_llm_response(response)
-        assert data == {"title": "test"}
     
     def test_quality_score_calculation(self):
         """Test quality score calculation"""
@@ -180,12 +147,45 @@ class TestGeneratedPrompt:
             )
 
 
+class TestHenryClient:
+    """Test Henry client"""
+    
+    def test_build_henry_prompt(self):
+        """Test prompt building for Henry"""
+        client = HenryClient()
+        prompt = client._build_henry_prompt("测试标题", "测试描述")
+        
+        assert "测试标题" in prompt
+        assert "测试描述" in prompt
+        assert "B站热点话题" in prompt
+    
+    def test_fallback_prompt_generation(self):
+        """Test fallback prompt generation"""
+        client = HenryClient()
+        result = client._generate_fallback_prompt("测试标题", "测试描述")
+        
+        assert "title_suggestions" in result
+        assert "core_viewpoints" in result
+        assert "opening" in result
+        assert "body" in result
+        assert "ending" in result
+        assert "ending_interaction" in result
+        assert "estimated_duration" in result
+    
+    def test_generate_prompt_with_henry(self):
+        """Test convenience function"""
+        result = generate_prompt_with_henry("测试标题", "测试描述")
+        
+        assert isinstance(result, dict)
+        assert "title_suggestions" in result
+
+
 class TestMockGeneration:
-    """Test prompt generation with mock LLM"""
+    """Test prompt generation with mocked Henry client"""
     
     def test_generate_with_mock(self):
-        """Test generation with mocked LLM client"""
-        mock_response = json.dumps({
+        """Test generation with mocked Henry client"""
+        mock_response = {
             "title_suggestions": ["测试标题1", "测试标题2", "测试标题3"],
             "core_viewpoints": ["观点1", "观点2", "观点3"],
             "opening": "开场白",
@@ -193,10 +193,10 @@ class TestMockGeneration:
             "ending": "结尾",
             "ending_interaction": "欢迎评论",
             "estimated_duration": 120,
-        })
+        }
         
         mock_client = Mock()
-        mock_client.chat_completion.return_value = mock_response
+        mock_client.generate_prompt.return_value = mock_response
         
         # Create a mock HotTopic
         mock_topic = Mock()
@@ -210,7 +210,7 @@ class TestMockGeneration:
         mock_topic.share = 10
         mock_topic.bvid = "BVtest123"
         
-        generator = PromptGenerator(llm_client=mock_client)
+        generator = PromptGenerator(henry_client=mock_client)
         result = generator.generate(mock_topic, TemplateType.HOT_INTERPRET)
         
         assert result.template_type == TemplateType.HOT_INTERPRET

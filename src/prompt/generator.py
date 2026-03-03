@@ -1,13 +1,12 @@
 """
-Prompt Generator - Generates video prompts from hot topics
+Prompt Generator - Generates video prompts from hot topics using Henry agent
 """
 import json
 import random
 from typing import Optional, List
 import logging
 
-from .client import get_llm_client, LLMClient
-from .config import llm_config
+from .henry_client import HenryClient, generate_prompt_with_henry
 from .models import GeneratedPrompt, TemplateType
 from .templates import format_template
 
@@ -15,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 
 class PromptGenerator:
-    """Generate video prompts from hot topics"""
+    """Generate video prompts from hot topics using Henry agent"""
     
     # Template type weights
     TEMPLATE_WEIGHTS = {
@@ -24,15 +23,15 @@ class PromptGenerator:
         TemplateType.ROUNDUP: 0.15,
     }
     
-    def __init__(self, llm_client: Optional[LLMClient] = None):
+    def __init__(self, henry_client: Optional[HenryClient] = None):
         """Initialize prompt generator"""
-        self.llm_client = llm_client
+        self.henry_client = henry_client
     
-    def _get_llm_client(self) -> LLMClient:
-        """Get or create LLM client"""
-        if self.llm_client is None:
-            self.llm_client = get_llm_client()
-        return self.llm_client
+    def _get_henry_client(self) -> HenryClient:
+        """Get or create Henry client"""
+        if self.henry_client is None:
+            self.henry_client = HenryClient()
+        return self.henry_client
     
     def _select_template_type(self) -> TemplateType:
         """Select template type based on weights"""
@@ -46,30 +45,6 @@ class PromptGenerator:
         
         return TemplateType.HOT_INTERPRET  # Default
     
-    def _parse_llm_response(self, response: str) -> dict:
-        """Parse LLM response to extract JSON"""
-        # Try to find JSON in response
-        response = response.strip()
-        
-        # Handle markdown code blocks
-        if "```json" in response:
-            response = response.split("```json")[1].split("```")[0]
-        elif "```" in response:
-            response = response.split("```")[1].split("```")[0]
-        
-        # Try to parse JSON
-        try:
-            return json.loads(response)
-        except json.JSONDecodeError:
-            # Try to find JSON-like content
-            start = response.find("{")
-            end = response.rfind("}") + 1
-            if start >= 0 and end > start:
-                json_str = response[start:end]
-                return json.loads(json_str)
-        
-        raise ValueError(f"Failed to parse LLM response as JSON: {response[:200]}")
-    
     def generate(
         self,
         topic,
@@ -81,7 +56,7 @@ class PromptGenerator:
         Args:
             topic: HotTopic object
             template_type: Optional template type (auto-selected if not provided)
-            temperature: Optional temperature override
+            temperature: Optional temperature override (not used with Henry)
             
         Returns:
             GeneratedPrompt object
@@ -92,44 +67,23 @@ class PromptGenerator:
         
         logger.info(f"Generating prompt with template: {template_type.value}")
         
-        # Prepare topic data
-        topic_data = {
-            "title": topic.title,
-            "desc": topic.desc or "无",
-            "author": topic.author or "未知",
-            "view": topic.view,
-            "like": topic.like,
-            "coin": topic.coin,
-            "favorite": topic.favorite,
-            "share": topic.share,
-        }
+        # Call Henry client to generate prompt
+        client = self._get_henry_client()
         
-        # Format prompt
-        prompt = format_template(template_type, topic_data)
-        
-        # Call LLM
-        client = self._get_llm_client()
-        messages = [
-            {"role": "user", "content": prompt}
-        ]
-        
-        response = client.chat_completion(
-            messages=messages,
-            temperature=temperature,
+        result = client.generate_prompt(
+            topic_title=topic.title,
+            topic_desc=topic.desc or "",
         )
         
-        # Parse response
-        data = self._parse_llm_response(response)
-        
         # Validate and create result
-        data["template_type"] = template_type
-        data["source_bvid"] = topic.bvid
-        data["source_title"] = topic.title
+        result["template_type"] = template_type
+        result["source_bvid"] = topic.bvid
+        result["source_title"] = topic.title
         
         # Calculate quality score
-        data["quality_score"] = self._calculate_quality_score(data)
+        result["quality_score"] = self._calculate_quality_score(result)
         
-        return GeneratedPrompt(**data)
+        return GeneratedPrompt(**result)
     
     def _calculate_quality_score(self, data: dict) -> float:
         """Calculate basic quality score (0-1)"""

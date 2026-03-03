@@ -262,6 +262,26 @@ class GenerateResponse(BaseModel):
     mode: str  # 使用的模式: real | mock
 
 
+class HenryGenerateRequest(BaseModel):
+    """Henry 生成 Prompt 请求"""
+    prompt: str  # 给 Henry 的指令
+    topic_title: str  # 热点标题
+    topic_desc: str  # 热点描述
+
+
+class HenryGenerateResponse(BaseModel):
+    """Henry 生成 Prompt 响应"""
+    success: bool
+    title_suggestions: list = []
+    core_viewpoints: list = []
+    opening: str = ""
+    body: str = ""
+    ending: str = ""
+    ending_interaction: str = ""
+    estimated_duration: int = 120
+    error: Optional[str] = None
+
+
 # ==================== API 路由 ====================
 @app.get("/")
 async def root():
@@ -320,6 +340,52 @@ async def generate_content(request: GenerateRequest):
             success=False,
             error=str(e),
             mode="mock" if config.MOCK_MODE else config.PROVIDER
+        )
+
+
+@app.post("/api/henry/generate", response_model=HenryGenerateResponse)
+async def henry_generate(request: HenryGenerateRequest):
+    """
+    Henry 生成 Prompt API
+    调用 Henry agent 生成 AI 视频脚本/prompt
+    
+    注意: 这个端点需要 Henry agent 运行在后台
+    当前实现使用 mock 模式返回示例数据
+    """
+    import asyncio
+    
+    try:
+        # 这里可以集成实际的 Henry agent 调用
+        # 目前使用模拟实现，返回基于话题的示例数据
+        
+        await asyncio.sleep(0.5)  # 模拟延迟
+        
+        # 基于话题生成示例数据
+        topic = request.topic_title
+        desc = request.topic_desc or ""
+        
+        return HenryGenerateResponse(
+            success=True,
+            title_suggestions=[
+                f"深度解析: {topic[:20]}",
+                f"原来这就是{topic[:15]}的真相",
+                f"{topic[:15]}，看完你就懂了"
+            ],
+            core_viewpoints=[
+                f"{topic}引发了广泛讨论",
+                "该话题在社交媒体上热度很高",
+                "值得我们深入分析和思考"
+            ],
+            opening=f"各位观众朋友们大家好，今天我们来聊聊{topic}这个话题...",
+            body=f"最近{topic}成为了热点中的热点。{desc}让我们一起来深入分析一下这背后的原因和影响。",
+            ending=f"以上就是关于{topic}的深度分析，感谢大家的观看。",
+            ending_interaction="如果你对这个话题有什么看法，欢迎在评论区留言讨论。记得点赞投币支持一下！",
+            estimated_duration=120
+        )
+    except Exception as e:
+        return HenryGenerateResponse(
+            success=False,
+            error=str(e)
         )
 
 

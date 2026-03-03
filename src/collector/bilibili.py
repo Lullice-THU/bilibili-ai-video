@@ -103,17 +103,21 @@ class BilibiliCollector:
         topics = []
         for idx, item in enumerate(raw_list):
             try:
+                # 数据在 stat 对象里
+                stat = item.get("stat", {})
+                owner = item.get("owner", {})
+                
                 topic = HotTopic(
                     bvid=item.get("bvid"),
                     title=item.get("title", ""),
                     desc=item.get("desc", ""),
-                    author=item.get("author", ""),
-                    view=item.get("view", 0),
-                    like=item.get("like", 0),
-                    coin=item.get("coin", 0),
-                    favorite=item.get("favorite", 0),
-                    share=item.get("share", 0),
-                    reply=item.get("reply", 0),
+                    author=owner.get("name", ""),
+                    view=stat.get("view", 0),
+                    like=stat.get("like", 0),
+                    coin=stat.get("coin", 0),
+                    favorite=stat.get("favorite", 0),
+                    share=stat.get("share", 0),
+                    reply=stat.get("reply", 0),
                     pubdate=item.get("pubdate"),
                     duration=item.get("duration"),
                     pic=item.get("pic"),

@@ -1,0 +1,1822 @@
+{
+  "tracked_videos": {
+    "BV1234567890": {
+      "title": "Mock Video BV1234567890",
+      "history": [
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV1234567890",
+          "title": "Mock Video BV1234567890",
+          "view_count": 38396,
+          "like_count": 7496,
+          "coin_count": 2446,
+          "favorite_count": 426,
+          "share_count": 406,
+          "comment_count": 401,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 6566400,
+          "fetched_at": null
+        }
+      ],
+      "first_tracked_at": "2026-03-02T12:13:38.305579",
+      "last_tracked_at": "2026-03-03T00:20:36.400980"
+    },
+    "BV0987654321": {
+      "title": "Mock Video BV0987654321",
+      "history": [
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV0987654321",
+          "title": "Mock Video BV0987654321",
+          "view_count": 83367,
+          "like_count": 2467,
+          "coin_count": 2417,
+          "favorite_count": 1397,
+          "share_count": 377,
+          "comment_count": 372,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 12268800,
+          "fetched_at": null
+        }
+      ],
+      "first_tracked_at": "2026-03-02T12:13:38.407432",
+      "last_tracked_at": "2026-03-03T00:20:35.276963"
+    },
+    "BV123": {
+      "title": "Mock Video BV123",
+      "history": [
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        },
+        {
+          "bvid": "BV123",
+          "title": "Mock Video BV123",
+          "view_count": 81524,
+          "like_count": 624,
+          "coin_count": 574,
+          "favorite_count": 2554,
+          "share_count": 534,
+          "comment_count": 29,
+          "duration": 300,
+          "author_mid": 12345678,
+          "pubdate": 18057600,
+          "fetched_at": null
+        }
+      ],
+      "first_tracked_at": "2026-03-02T12:14:26.383579",
+      "last_tracked_at": "2026-03-03T00:20:36.408362"
+    }
+  },
+  "fans_history": [
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": null
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:25.114289"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:25.319686"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:26.371305"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:26.378668"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:26.384871"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:50.852496"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:51.060073"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:52.074393"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:52.078940"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:14:52.086681"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:15:28.357281"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:15:28.565089"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:15:29.581451"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:15:29.586242"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T12:15:29.592434"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T14:05:53.902288"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T14:05:54.110333"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T14:05:55.132655"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T14:05:55.153717"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T14:05:55.173610"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:15.184522"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:15.397351"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:16.417060"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:16.429644"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:16.444169"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:53.670242"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:53.974188"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:55.086886"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:55.154397"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-02T15:36:55.226493"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-03T00:20:35.171113"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-03T00:20:35.380153"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-03T00:20:36.397252"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-03T00:20:36.402825"
+    },
+    {
+      "mid": 12345678,
+      "follower_count": 9510,
+      "following_count": 460,
+      "history": [
+        {
+          "timestamp": 1704067200,
+          "count": 5460
+        },
+        {
+          "timestamp": 1706745600,
+          "count": 6485
+        }
+      ],
+      "fetched_at": "2026-03-03T00:20:36.411064"
+    }
+  ],
+  "last_updated": "2026-03-03T00:20:36.411084"
+}

@@ -1,128 +1,108 @@
 # bilibili-ai-video
-Bilibili AI Video Assistant - MVP
+Bilibili AI Video Prompt Generator - 基于B站热点自动生成AI视频Prompt
+
+## 项目简介
+
+本项目从B站采集实时热点话题，计算热度分数，并自动生成AI视频创作的Prompt。支持手动触发和定时任务（每天08:00和20:00自动运行）。
 
 ## 项目结构
+
 ```
 bilibili-ai-video/
-├── backend/           # FastAPI 后端
-│   ├── main.py       # API 服务
-│   ├── .env         # 环境配置
-│   └── .env.example # 配置示例
-└── frontend/         # Taro 前端 (H5/小程序)
+├── config.py           # 配置文件
+├── main.py            # 主程序入口
+├── scheduler.py       # 定时任务模块
+├── dashboard_app.py   # Dashboard服务
+├── dashboard/         # 前端页面
+├── src/
+│   ├── collector/     # B站数据采集
+│   ├── calculator/   # 热度计算引擎
+│   ├── prompt/        # Prompt生成器
+│   └── dashboard/     # Dashboard API
+└── data/
+    ├── prompts.json        # 生成的Prompt数据
+    └── daily_prompts/      # 每日Prompt文件
 ```
 
-## 快速启动
+## 快速开始
 
 ### 前置要求
 - Python 3.8+
-- Node.js 16+
+- 网络访问B站API
 
-### 后端启动
+### 安装依赖
 ```bash
-cd backend
-
-# 安装依赖
-pip install --break-system-packages fastapi uvicorn pydantic python-dotenv httpx
-
-# 启动服务（默认 mock 模式，无需 API Key）
-python main.py
-```
-服务地址: http://localhost:8000
-
-### 前端启动
-```bash
-cd frontend
-npm install
-npm run dev
+pip install httpx pydantic fastapi uvicorn
 ```
 
-## 配置说明
+### 运行方式
 
-### 环境变量 (.env)
-在 `backend/.env` 中配置：
-
+#### 1. 立即生成Prompt
 ```bash
-# LLM Provider: openai | minimax | mock
-LLM_PROVIDER=mock
+python main.py --run-now
+```
+生成完成后会：
+- 在 `data/daily_prompts/YYYY-MM-DD-HH.md` 保存Markdown格式
+- 在 `data/prompts.json` 保存JSON格式（供Dashboard使用）
 
-# OpenAI 配置（可选）
-OPENAI_API_KEY=your-openai-api-key
-OPENAI_BASE_URL=https://api.openai.com/v1
-OPENAI_MODEL=gpt-3.5-turbo
-
-# MiniMax 配置（可选）
-MINIMAX_API_KEY=your-minimax-api-key
-MINIMAX_BASE_URL=https://api.minimax.chat/v1
-MINIMAX_MODEL=abab6.5s-chat
+#### 2. 启动定时任务（每天08:00和20:00自动运行）
+```bash
+python main.py --schedule
 ```
 
-### 使用真实 LLM
-1. 申请 API Key（OpenAI 或 MiniMax）
-2. 编辑 `backend/.env`，设置：
-   - `LLM_PROVIDER=openai` 或 `LLM_PROVIDER=minimax`
-   - 填入对应的 API Key
-3. 重启后端服务
-
-## API 接口
-
-### 1. 健康检查
+#### 3. 启动Dashboard
 ```bash
-GET /
-# 返回: {"message": "Bilibili AI Video API", "status": "running", "mode": "mock"}
+python dashboard_app.py
+```
+访问 http://localhost:5000 查看Prompt列表
+
+### 使用真实的LLM API
+
+设置环境变量：
+```bash
+# DeepSeek (默认)
+export DEEPSEEK_API_KEY=your-api-key
+
+# 或 Anthropic Claude
+export LLM_PROVIDER=anthropic
+export ANTHROPIC_API_KEY=your-api-key
 ```
 
-### 2. 配置信息
-```bash
-GET /config
-# 返回: {"provider": "mock", "mock_mode": true, ...}
+## 输出格式
+
+### Markdown文件 (data/daily_prompts/YYYY-MM-DD-HH.md)
+```markdown
+# Prompt - 2026-03-03 08:00
+
+## 热点话题
+1. 热点话题1...
+2. 热点话题2...
+
+## 生成 Prompt
+### 话题 1: xxx
+**类型**: hot_interpret
+
+**标题建议:**
+- 标题1
+- 标题2
+...
+
+**开头:** 开场白内容
+**主体:** 主体内容
+**结尾:** 结尾内容
+**互动话术:** 互动话术
+**预估时长:** 120秒
 ```
 
-### 3. 生成文案
-```bash
-POST /api/generate
-Content-Type: application/json
+### Dashboard API
+- `GET /api/dashboard` - 获取所有数据
+- `GET /api/prompts` - 获取Prompt列表
+- `POST /api/generate` - 手动触发生成
 
-{
-  "material": "素材内容，至少10个字符",
-  "video_type": "general"  // 或 "professional"
-}
+## 功能说明
 
-# 成功返回:
-{
-  "title": "生成的标题",
-  "script": "生成的文案",
-  "success": true,
-  "mode": "mock"
-}
-```
-
-## MVP 功能
-- ✅ 素材输入 → AI 生成文案+标题 → 一键复制
-- ✅ 支持 Mock 模式（无需 API Key）
-- ✅ 支持 OpenAI API
-- ✅ 支持 MiniMax API
-- ✅ 前后端分离架构
-- ✅ 加载状态和错误处理
-
-## 开发说明
-
-### 端口说明
-- 后端: 8000
-- 前端: 10086 (Taro 默认)
-
-### 前端调用
-前端通过 `http://localhost:8000` 调用后端 API。如需修改，编辑：
-`frontend/src/pages/index/index.tsx` 中的 `API_BASE` 常量。
-
-## 常见问题
-
-### Q: 启动失败提示端口占用
-```bash
-# 查找占用进程
-lsof -i :8000
-# 杀掉进程
-kill -9 <PID>
-```
-
-### Q: 如何使用真实 LLM？
-确保 `.env` 中 `LLM_PROVIDER` 设置为 `openai` 或 `minimax`，并填入有效的 API Key。
+1. **数据采集** - 从B站API获取热门视频
+2. **热度计算** - 根据播放、点赞、投币等计算热度分数
+3. **Prompt生成** - 基于热点话题生成AI视频创作Prompt（支持DeepSeek/Anthropic）
+4. **定时任务** - 每天08:00和20:00自动运行
+5. **Dashboard** - Web界面查看生成的Prompt
